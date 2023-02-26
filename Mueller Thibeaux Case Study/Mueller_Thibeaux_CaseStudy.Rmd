@@ -20,8 +20,8 @@ library(caret)
 ```
 Merge datasets
 ```{r}
-beers <- read.csv(file.choose(), header = TRUE, fill = TRUE)
-breweries <- read.csv(file.choose(), header = TRUE, fill = TRUE)
+beers <- read.csv('https://github.com/athibeaux/MSDS-DDS/raw/main/Mueller%20Thibeaux%20Case%20Study/Beers.csv', header = TRUE, fill = TRUE)
+breweries <- read.csv('https://github.com/athibeaux/MSDS-DDS/raw/main/Mueller%20Thibeaux%20Case%20Study/Breweries.csv', header = TRUE, fill = TRUE)
 
 merged <- merge(beers, breweries, by.x = "Brewery_id", by.y = "Brew_ID")
 ```
