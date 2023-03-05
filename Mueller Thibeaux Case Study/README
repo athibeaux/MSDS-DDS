@@ -4,6 +4,8 @@ about the location of breweries, the ABV and IBU of beers offered at those brewe
 it is helpful to start from a macro view and then drill down to examining specific variables and how knowing that information could help the company make future decisions
 about new products, markets, or locations. 
 
+Video Presentation can be found at: https://youtu.be/Jugz_FAKfUM
+
 Description of Data sets used:
 The Beers dataset contains a list of 2410 US craft beers and Breweries dataset contains 558 US breweries. The datasets descriptions are as follows.
 
